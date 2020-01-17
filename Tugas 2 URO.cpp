@@ -10,7 +10,7 @@ double toDouble (string);
 int main() {
 	int Kode, Angka1, Angka2, i, j, Hasil, Suku;
 	string chara;
-	cout<<"1. Penambahan"<<endl<<"2. Pengurangan"<<endl<<"3. Perkalian"<<endl<<"4. Polinom"<<endl;
+	cout<<"1. Penambahan"<<endl<<"2. Pengurangan"<<endl<<"3. Perkalian"<<endl<<"4. Turunan Polinom"<<endl;
 	cout<<"Masukkan kode= ";
 	cin>>Kode;
 	while (Kode>4 || Kode<1) {
@@ -29,7 +29,6 @@ int main() {
 			Koefisien[i]=Koefisien[i]*Pangkat[i];
 			Pangkat[i]=Pangkat[i]-1;
 		}
-		
 		for (j=0; j<Suku; j++) {
 			if (Koefisien[j]!=0) {
 			
