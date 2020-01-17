@@ -29,6 +29,7 @@ int main() {
 			Koefisien[i]=Koefisien[i]*Pangkat[i];
 			Pangkat[i]=Pangkat[i]-1;
 		}
+		
 		for (j=0; j<Suku; j++) {
 			if (Koefisien[j]!=0) {
 			
