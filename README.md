@@ -1,1 +1,2 @@
-# Tugas2
+Nama: Nabila Farras Ammara Mumtaz
+NIM: 16519520
